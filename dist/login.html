@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fas fa-code fa-1x"></i>WeConnect
+            </a>
+            <a href="index.html">
+                <i class="fas fa-home fa-1x"></i>
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Developer</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <!-- Alert  -->
+        <div class="alert alert-danger">
+            Invalid Credentials
+        </div>
+       <h1 class="large text-primary">
+           Sign In
+       </h1>
+       <p class="lead">
+           <i class="fas fa-user"></i>Sign Into Your Account
+       </p>
+       <form action="dashboard.html" class="from">
+           <div class="form-group">
+               <input type="email" name="emial"  placeholder="Email Address" required>
+           </div>
+           <div class="form-group ">
+               <input type="password" name="password"  placeholder="password" minlength="6">
+           </div>
+           <button class="btn btn-primary">Login</button>        
+       </form>
+       <p class="my-1">
+        Don't Have An Account?
+        <a href="register.html">Sign Up</a>
+    </p>
+    </section>
+</body>
+</html>
